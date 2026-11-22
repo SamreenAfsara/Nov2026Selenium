@@ -14,7 +14,7 @@ import com.swaglabs.pages.LoginPage;
 import com.swaglabs.utils.Browser;
 import com.swaglabs.utils.ConfigData;
 import com.swaglabs.utils.ReadData;
-import com.swaglabs.utils.RetryAnalyzer;
+//import com.swaglabs.utils.RetryAnalyzer;
 
 public class LoginPageTest  extends Browser{
 	
@@ -100,7 +100,7 @@ public class LoginPageTest  extends Browser{
 		Assert.assertEquals(getURL(), ConfigData.INVENTORY_URL);
 	}
 	
-	@Test(dataProvider="logindata",groups="smoke",retryAnalyzer=RetryAnalyzer.class)
+	@Test(dataProvider="logindata",groups="smoke"/*,retryAnalyzer=RetryAnalyzer.class */)
 	public void verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(String uname,String pass) throws InterruptedException
 	{
 		
