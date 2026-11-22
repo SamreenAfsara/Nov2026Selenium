@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="4" ignored="0" total="18" passed="11" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-22T07:59:31 IST" name="Suite" finished-at="2026-11-22T08:01:12 IST" duration-ms="101578">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyLoginBtnFunctionalityWithBlankPassword()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" name="verifyLoginBtnFunctionalityWithBlankPassword" class="com.swaglabs.test.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginBtnFunctionalityWithBlankUsername()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" name="verifyLoginBtnFunctionalityWithBlankUsername" class="com.swaglabs.test.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginBtnFunctionalityWithInvalidUsernameAndInvalidPassword()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" name="verifyLoginBtnFunctionalityWithInvalidUsernameAndInvalidPassword" class="com.swaglabs.test.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" class="com.swaglabs.test.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" class="com.swaglabs.test.LoginPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-11-22T07:59:31 IST" name="Test" finished-at="2026-11-22T08:01:12 IST" duration-ms="101578">
+      <class name="com.swaglabs.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:31 IST" name="setUp" finished-at="2026-11-22T07:59:34 IST" duration-ms="2632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithBlankPassword()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:34 IST" name="verifyLoginBtnFunctionalityWithBlankPassword" finished-at="2026-11-22T07:59:35 IST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithBlankPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:35 IST" name="teardown" finished-at="2026-11-22T07:59:36 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:36 IST" name="setUp" finished-at="2026-11-22T07:59:38 IST" duration-ms="2078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithBlankUsername()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:38 IST" name="verifyLoginBtnFunctionalityWithBlankUsername" finished-at="2026-11-22T07:59:38 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithBlankUsername -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:38 IST" name="teardown" finished-at="2026-11-22T07:59:39 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:39 IST" name="setUp" finished-at="2026-11-22T07:59:41 IST" duration-ms="2499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithInvalidUsernameAndInvalidPassword()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:41 IST" name="verifyLoginBtnFunctionalityWithInvalidUsernameAndInvalidPassword" finished-at="2026-11-22T07:59:45 IST" duration-ms="3503" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Epic sadface: Password is required] but found [Epic sadface: Username and password do not match any user in this service]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Epic sadface: Password is required] but found [Epic sadface: Username and password do not match any user in this service]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.swaglabs.test.LoginPageTest.verifyLoginBtnFunctionalityWithInvalidUsernameAndInvalidPassword(LoginPageTest.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:45 IST" name="teardown" finished-at="2026-11-22T07:59:45 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:45 IST" name="setUp" finished-at="2026-11-22T07:59:48 IST" duration-ms="2472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:48 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" finished-at="2026-11-22T07:59:51 IST" duration-ms="3521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:51 IST" name="teardown" finished-at="2026-11-22T07:59:52 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:52 IST" name="setUp" finished-at="2026-11-22T07:59:54 IST" duration-ms="1968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:54 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T07:59:57 IST" duration-ms="3466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:57 IST" name="teardown" finished-at="2026-11-22T07:59:57 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:57 IST" name="setUp" finished-at="2026-11-22T07:59:59 IST" duration-ms="1763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T07:59:59 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:03 IST" duration-ms="3509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:03 IST" name="teardown" finished-at="2026-11-22T08:00:03 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:03 IST" name="setUp" finished-at="2026-11-22T08:00:05 IST" duration-ms="1978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:05 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:09 IST" duration-ms="3551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:09 IST" name="teardown" finished-at="2026-11-22T08:00:09 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:09 IST" name="setUp" finished-at="2026-11-22T08:00:12 IST" duration-ms="2510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:12 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:15 IST" duration-ms="3454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:15 IST" name="teardown" finished-at="2026-11-22T08:00:15 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:15 IST" name="setUp" finished-at="2026-11-22T08:00:17 IST" duration-ms="1669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:17 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:21 IST" duration-ms="3487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:21 IST" name="teardown" finished-at="2026-11-22T08:00:21 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:21 IST" name="setUp" finished-at="2026-11-22T08:00:23 IST" duration-ms="1861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:23 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:26 IST" duration-ms="3533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:26 IST" name="teardown" finished-at="2026-11-22T08:00:27 IST" duration-ms="357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:27 IST" name="setUp" finished-at="2026-11-22T08:00:29 IST" duration-ms="1825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:29 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:32 IST" duration-ms="3510" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:32 IST" name="teardown" finished-at="2026-11-22T08:00:32 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:32 IST" name="setUp" finished-at="2026-11-22T08:00:34 IST" duration-ms="1865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:34 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:38 IST" duration-ms="3478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:38 IST" name="teardown" finished-at="2026-11-22T08:00:38 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:38 IST" name="setUp" finished-at="2026-11-22T08:00:40 IST" duration-ms="1871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:40 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:44 IST" duration-ms="3493" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gggggggggg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[settttttttttttttcret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to Product title is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to Product title is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.swaglabs.test.LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(LoginPageTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:44 IST" name="teardown" finished-at="2026-11-22T08:00:44 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:44 IST" name="setUp" finished-at="2026-11-22T08:00:46 IST" duration-ms="1900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:46 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:49 IST" duration-ms="3437" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gggggggggg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[settttttttttttttcret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to Product title is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to Product title is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.swaglabs.test.LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(LoginPageTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:49 IST" name="teardown" finished-at="2026-11-22T08:00:50 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:50 IST" name="setUp" finished-at="2026-11-22T08:00:51 IST" duration-ms="1792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:51 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:00:55 IST" duration-ms="3464" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gggggggggg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[settttttttttttttcret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to Product title is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to Product title is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.swaglabs.test.LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(LoginPageTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:55 IST" name="teardown" finished-at="2026-11-22T08:00:55 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:55 IST" name="setUp" finished-at="2026-11-22T08:00:57 IST" duration-ms="1921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:00:57 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:01:01 IST" duration-ms="3414" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standarttrr12rd_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauceuuuuu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to Product title is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to Product title is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.swaglabs.test.LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(LoginPageTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:01:01 IST" name="teardown" finished-at="2026-11-22T08:01:01 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:01:01 IST" name="setUp" finished-at="2026-11-22T08:01:03 IST" duration-ms="1931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method retried="true" signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:01:03 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:01:06 IST" duration-ms="3451" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standarttrr12rd_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauceuuuuu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to Product title is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to Product title is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.swaglabs.test.LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(LoginPageTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:01:06 IST" name="teardown" finished-at="2026-11-22T08:01:07 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:01:07 IST" name="setUp" finished-at="2026-11-22T08:01:09 IST" duration-ms="1825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(java.lang.String,java.lang.String)[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:01:09 IST" name="verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword" data-provider="logindata" finished-at="2026-11-22T08:01:12 IST" duration-ms="3441" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standarttrr12rd_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauceuuuuu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test case failed due to Product title is not visible expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test case failed due to Product title is not visible expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.swaglabs.test.LoginPageTest.verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword(LoginPageTest.java:115)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginBtnFunctionalityWithValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.swaglabs.test.LoginPageTest@23941fb4]" started-at="2026-11-22T08:01:12 IST" name="teardown" finished-at="2026-11-22T08:01:12 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.swaglabs.test.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
